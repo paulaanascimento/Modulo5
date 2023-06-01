@@ -6,11 +6,6 @@ public class Main {
     static Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {
-        menu();
-    }
-
-    public static void menu(){
-
         while (true){
             System.out.println("\n----- BOAS VINDAS AO CONVERSOR DE MOEDAS -----");
             System.out.println("""

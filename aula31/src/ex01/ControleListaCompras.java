@@ -29,7 +29,7 @@ public class ControleListaCompras {
            }
        }while (quantidade < 0);
 
-        System.out.println("Informe o nome do alimento que será comprado:");
+        System.out.print("Informe o nome do alimento que será comprado: ");
         String alimento = entrada.nextLine();
 
         if(alimento.isBlank()){
@@ -61,7 +61,7 @@ public class ControleListaCompras {
             }
         }while (quantidade < 0);
 
-        System.out.println("Informe o nome do alimento que será comprado:");
+        System.out.print("Informe o nome do alimento que será comprado: ");
         String alimento = entrada.nextLine();
 
         if(alimento.isBlank()){
@@ -93,7 +93,7 @@ public class ControleListaCompras {
             }
         }while (quantidade < 0);
 
-        System.out.println("Informe o nome do alimento que será comprado:");
+        System.out.print("Informe o nome do alimento que será comprado: ");
         String alimento = entrada.nextLine();
 
         if(alimento.isBlank()){
@@ -125,7 +125,7 @@ public class ControleListaCompras {
             }
         }while (quantidade < 0);
 
-        System.out.println("Informe o nome do alimento que será comprado:");
+        System.out.print("Informe o nome do alimento que será comprado: ");
         String alimento = entrada.nextLine();
 
         if(alimento.isBlank()){

@@ -8,10 +8,6 @@ public class Main {
     static Scanner entrada = new Scanner(System.in);
 
     public static void main(String[] args) {
-        menu();
-    }
-
-    public static void menu(){
         List<String> listaVerduras = new ArrayList<>();
         List<String> listaLegumes = new ArrayList<>();
         List<String> listaGraos = new ArrayList<>();
@@ -90,7 +86,7 @@ public class Main {
         System.out.println("\nA quantidade de alimentos do tipo legume a ser comprada é: " + listaLegumes.size());
 
         System.out.println("\nGrãos: ");
-        System.out.println(listaVerduras);
+        System.out.println(listaGraos);
         System.out.println("\nA quantidade de alimentos do tipo grão a ser comprada é: " + listaGraos.size());
 
         System.out.println("\nOutros: ");
