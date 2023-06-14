@@ -32,9 +32,7 @@ public class CalcularDiasSemana {
                 return "Número Inválido! Forneça um inteiro de 1 a 7";
         }
 
-        if(diaSemana.equals("Domingo")){
-            eOMelhorDiaParaIrAFeira = true;
-        } else eOMelhorDiaParaIrAFeira = false;
+        eOMelhorDiaParaIrAFeira = diaSemana.equals("Domingo");
 
         return "O dia é " + diaSemana + ". É o melhor para ir à feira? " + eOMelhorDiaParaIrAFeira;
     }
